@@ -1,22 +1,21 @@
-import ContectTable from "./components/ContectTable";
-import Heading from "./components/Heading";
-import Navigation from "./components/Navigation";
+'use client'
+import Deshboard from "./components/Deshboard";
+import NavigationBar from "./components/NavigationBar";
 
 function App() {
   return (
-    <div className="h-screen w-screen">
+    <>
+    <div className="h-100 w-100">
       <div className="heading">
-        <Heading />
+        <NavigationBar />
       </div>
       <div className="w-full flex flex-row">
         <div className="navigation w-1/5">
-          <Navigation />
-        </div>
-        <div className="contectTable w-4/5 my-10">
-          <ContectTable />
+          <Deshboard />
         </div>
       </div>
     </div>
+    </>
   );
 }
 

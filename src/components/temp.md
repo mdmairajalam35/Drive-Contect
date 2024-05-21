@@ -1,16 +1,4 @@
-import { FaUserAlt } from "react-icons/fa";
-import { FaClockRotateLeft } from "react-icons/fa6";
-import { PiBoxArrowDownBold } from "react-icons/pi";
-import { BsTools } from "react-icons/bs";
-import { CiImport } from "react-icons/ci";
-import { RiDeleteBin6Line } from "react-icons/ri";
-import { IoMdInformationCircleOutline } from "react-icons/io";
-
-export default function Navigation() {
-  return (
-    <div>
-      <aside>
-        <div className="mx-10">
+<div className="mx-10">
           <button className="py-4 px-3  text-xl  rounded-lg flex items-center text-black bg-sky-300">
             <h1 className="text-3xl px-2">+</h1>
             <p> Create Contect</p>
@@ -51,7 +39,3 @@ export default function Navigation() {
             Labels <button>+</button>
           </h6>
         </div>
-      </aside>
-    </div>
-  );
-}
