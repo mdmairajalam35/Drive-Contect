@@ -13,8 +13,8 @@ function NavigationBar() {
         {/* Toggle-icon-button */}
         <div className="flex justify-between items-center">
           <div>
-            <button className="toggle-icon cursor-pointer">
-              <FaBars className="Bar text-2xl mx-3 " />
+            <button className="toggle-icon cursor-pointer p-4 m-4  hover:rounded-full  hover:bg-gray-300">
+              <FaBars className="Bar text-2xl " />
             </button>
           </div>
           {/* Logo */}
@@ -43,20 +43,20 @@ function NavigationBar() {
         </div>
 
         {/* Other icon and Profile */}
-        <div className=" text-2xl flex justify-center items-center gap-8 ">
-          <div className="flex gap-4">
-            <button>
+        <div className=" text-xl flex justify-center items-center gap-8">
+          <div className="flex">
+            <button className="p-4 m-2  hover:rounded-full  hover:bg-gray-300">
               <FaRegQuestionCircle />
             </button>
-            <button>
+            <button className="p-4 m-2  hover:rounded-full  hover:bg-gray-300">
               <IoSettingsOutline />
             </button>
           </div>
           <div className="flex gap-4">
-            <button>
+            <button className="p-4 m-2  hover:rounded-full  hover:bg-gray-300">
               <TbGridDots />
             </button>
-            <button>
+            <button className="p-4 m-2  hover:rounded-full  hover:bg-gray-300">
               <IoIosContact className="text-4xl" />
             </button>
           </div>
